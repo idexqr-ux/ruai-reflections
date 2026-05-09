@@ -128,43 +128,41 @@ footer {
 .listen-btn {
   display: block;
   margin: 1.5rem auto 1rem;
-  padding: 0.9rem 1.6rem;
+  padding: 0.95rem 1.8rem;
+
   border: none;
   border-radius: 999px;
 
   background: linear-gradient(
     180deg,
-    #dce8e2 0%,
-    #e7f1ec 100%
+    #587380 0%,
+    #6b858f 100%
   );
 
-  color: #444;
+  color: #f4f4f2;
+
   font-family: Georgia, serif;
   font-size: 1rem;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
 
   cursor: pointer;
 
   box-shadow:
-    0 2px 6px rgba(0,0,0,0.06);
+    0 3px 10px rgba(0,0,0,0.10);
 
   transition:
-    background 0.2s ease,
     transform 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
 }
 
 .listen-btn:hover {
-  background: linear-gradient(
-    180deg,
-    #d5e2dc 0%,
-    #e2ece7 100%
-  );
-
   transform: translateY(-1px);
 
+  filter: brightness(1.04);
+
   box-shadow:
-    0 4px 10px rgba(0,0,0,0.08);
+    0 5px 14px rgba(0,0,0,0.14);
 }
 
 .listen-btn:active {
