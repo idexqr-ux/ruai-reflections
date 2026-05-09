@@ -106,3 +106,21 @@ footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+.stop-audio-btn {
+  margin: 1.5rem auto 0;
+  display: block;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 999px;
+  background: #dfe8e3;
+  color: #2F5DA8;
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.stop-audio-btn:hover {
+  background: #d4dfd9;
+}
