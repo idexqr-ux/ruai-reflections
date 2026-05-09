@@ -38,6 +38,10 @@
           Your browser does not support the audio element.
         </audio>
 
+        <button class="stop-audio-btn" onclick="stopAudio()">
+  Stop audio
+</button>
+
         <p class="helper">Best heard in a quiet moment.</p>
       </div>
     </section>
@@ -54,5 +58,19 @@
   <footer>
     <p>RuAI</p>
   </footer>
+
+  <script>
+function playIntroAudio() {
+  const audio = document.getElementById("introAudio");
+  audio.play();
+}
+
+function stopAudio() {
+  const audio = document.getElementById("introAudio");
+  audio.pause();
+  audio.currentTime = 0;
+}
+</script>
+  
 </body>
 </html>
