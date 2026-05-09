@@ -31,19 +31,21 @@
       </p>
 
       <div class="audio-card">
-        <p class="audio-title">Listen to the introduction</p>
+  <button class="listen-btn" onclick="playIntroAudio()">
+    Listen to the introduction
+  </button>
 
-        <audio controls>
-          <source src="audio/ruai-intro.mp3" type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
+  <audio id="introAudio">
+    <source src="audio/ruai-intro.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
 
-        <button class="stop-audio-btn" onclick="stopAudio()">
-  Stop audio
-</button>
+  <button class="stop-audio-btn" onclick="stopAudio()">
+    Stop audio
+  </button>
 
-        <p class="helper">Best heard in a quiet moment.</p>
-      </div>
+  <p class="helper">Best heard in a quiet moment.</p>
+</div>
     </section>
 
     <section class="reflection-list">
