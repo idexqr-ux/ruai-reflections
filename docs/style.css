@@ -19,6 +19,14 @@ body {
   min-height: 100vh;
 }
 
+.footer-sub {
+  margin-top: 0.35rem;
+  font-size: 0.82rem;
+  color: rgba(70, 84, 78, 0.72);
+  text-align: center;
+  line-height: 1.5;
+}
+
 .page-shell {
   width: min(860px, 92%);
   margin: 0 auto;
